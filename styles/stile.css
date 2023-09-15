@@ -1,0 +1,62 @@
+
+.navbar{
+    text-decoration: none;
+    background-color: rgb(42, 203, 149);
+    color: black;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: end;
+}
+
+.box{
+    
+    border: 3px solid rgb(193, 193, 193);
+    border-radius: 15px;
+    margin: 10px;
+    
+}
+
+.grup-date{
+    color: gray;
+    display: flex;
+  }
+.center{ text-align: center;}
+.alumn{
+    max-width: 200px;
+}
+.col-lg-4{
+    background-color: brown;
+}
+.biografi{
+    display: none;
+}
+
+/* CSS para pantallas pequeñas (menos de 768px de ancho) */
+@media (max-width: 1023px) {
+    .card-text {
+      display: none; /* Oculta el elemento */
+    }
+}
+  
+  /* CSS para pantallas más grandes (768px o más de ancho) */
+@media (min-width: 1024px) {
+    .card-text {
+      display: block; /* Muestra el elemento */
+    }
+}
+
+
+/* CSS para pantallas pequeñas (menos de 768px de ancho) */
+@media (max-width: 767px) {
+    .biografi {
+      display: none; /* Oculta el elemento */
+    }
+}
+  
+  /* CSS para pantallas más grandes (768px o más de ancho) */
+@media (min-width: 768px) {
+    .biografi {
+      display: block; /* Muestra el elemento */
+    }
+}
