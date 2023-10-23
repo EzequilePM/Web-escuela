@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-ar">
 <head>
-  <meta name="author" content="javier18" />
+  
   <meta name="author" content="EzquielPM" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <link rel="stylesheet" href="styles/stile.css">
+  <link rel="stylesheet" href="styles/card.css">
   
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <title>Proyectos</title>
 </head>
 <body>
@@ -33,10 +34,10 @@
             <a class="nav-link active" href="#">Cooperadora</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="../login.html">Acceder</a>
+            <a class="nav-link active" href="#">Acceder</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="../register.html">Registrarse</a> 
+            <a class="nav-link active" href="#">Registrarse</a>
           </li>
         </ul>
 
@@ -45,246 +46,278 @@
   </nav>
 
   <main>
-    <!--  Informatica  -->
-    <section class="container-md box pt-2 pb-2">
-      <div class="grup-date center justify-content-between">
-        <h2>6to A</h2>
-        <h2>2023</h2>
-      </div>
-      <article class="row"> 
+    <!--  Lista de  -->
+    <div class="container d-flex justify-content-center align-items-center">
+      <section class="container-md box pt-2 pb-2">
+        <div class="grup-date center justify-content-between">
+          <h2>6to A</h2>
+          <h2>2023</h2>
+        </div>
+        <div class="row"> 
+          <!-- carousel -->
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+              
+              <!-- Proyect card -->
 
-        <div class="col-md-4 d-flex justify-content-center align-items-center">
-          
-          <div class="box pt-2" style="width: 18rem;">
-            <img src="img/Proyecto_informatica.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Título de la tarjeta</h5>
-              <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
-              <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+                <article class="container-lg box">
+                  <div class="row">
+                    <div class="col-lg-5 ">
+                      <img src="img/Proyecto_informatica.jpeg" alt="imagen del Proyecto" class="img-card">
+                    </div>
+                    <div class="col-lg-7">
+                      <div class="text-proyect-card">
+                        <h3>Titulo del primer proyecto</h3>
+                        <p>Descripción del primer proyecto</p>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            
+              <div class="carousel-item">
+              <!-- Proyect card -->
+
+                <article class="container-md box">
+                  <div class="row">
+                    <div class="col-lg-5">
+                      <img src="img/Proyecto_informatica.jpeg" alt="imagen del Proyecto" class="img-card">
+                    </div>
+                    <div class="col-lg-7">
+                      <div class="text-proyect-card">
+                        <h3>Titulo del segundo proyecto</h3>
+                        <p>Descripción del segundo proyecto</p>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+              <div class="carousel-item">
+                <!-- Proyect card -->
+  
+                <article class="container-md box">
+                  <div class="row">
+                    <div class="col-lg-5">
+                      <img src="img/Proyecto_informatica.jpeg" alt="imagen del Proyecto" class="img-card">
+                    </div>
+                    <div class="col-lg-7">
+                      <div class="text-proyect-card">
+                        <h3>Titulo del tercer proyecto</h3>
+                        <p>Descripción del tercer proyecto</p>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              
+              <div class="carousel-item">
+                <!-- Proyect card -->
+  
+                <article class="container-md box">
+                  <div class="row">
+                    <div class="col-lg-5">
+                      <img src="img/Proyecto_informatica.jpeg" alt="imagen del Proyecto" class="img-card">
+                    </div>
+                    <div class="col-lg-7">
+                      <div class="text-proyect-card">
+                        <h3>Titulo del cuarto proyecto</h3>
+                        <p>Descripción del cuarto proyecto</p>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
           </div>
 
+        
         </div>
+      </section>
+    </div>
+    <!--  Lista de  -->
+    <div class="container d-flex justify-content-center align-items-center">
+      <section class="container-md box pt-2 pb-2">
+        <div class="grup-date center justify-content-between">
+          <h2>5to A</h2>
+          <h2>2023</h2>
+        </div>
+        <div class="row"> 
+          <!-- carousel -->
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+              
+              <!-- Proyect card -->
 
-        <div class="col-md-4 d-flex justify-content-center align-items-center">
-          
-          <div class="box pt-2" style="width: 18rem;">
-            <img src="img/Proyecto_informatica.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Título de la tarjeta</h5>
-              <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
-              <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+                <article class="container-lg box">
+                  <div class="row">
+                    <div class="col-lg-5 ">
+                      <img src="img/Proyecto_informatica.jpeg" alt="imagen del Proyecto" class="img-card">
+                    </div>
+                    <div class="col-lg-7">
+                      <div class="text-proyect-card">
+                        <h3>Titulo del primer proyecto</h3>
+                        <p>Descripción del primer proyecto</p>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            
+              <div class="carousel-item">
+              <!-- Proyect card -->
+
+                <article class="container-md box">
+                  <div class="row">
+                    <div class="col-lg-5">
+                      <img src="img/Proyecto_informatica.jpeg" alt="imagen del Proyecto" class="img-card">
+                    </div>
+                    <div class="col-lg-7">
+                      <div class="text-proyect-card">
+                        <h3>Titulo del segundo proyecto</h3>
+                        <p>Descripción del segundo proyecto</p>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
           </div>
 
+        
         </div>
+      </section>
+    </div>
+    <!--  Lista de  -->
+    <div class="container d-flex justify-content-center align-items-center">
+      <section class="container-md box pt-2 pb-2">
+        <div class="grup-date center justify-content-between">
+          <h2>4to A</h2>
+          <h2>2023</h2>
+        </div>
+        <div class="row"> 
+          <!-- carousel -->
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+              
+              <!-- Proyect card -->
 
-        <div class="col-md-4 d-flex justify-content-center align-items-center">
-          
-          <div class="box pt-2" style="width: 18rem;">
-            <img src="img/Proyecto_informatica.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Título de la tarjeta</h5>
-              <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
-              <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+                <article class="container-lg box">
+                  <div class="row">
+                    <div class="col-lg-5 ">
+                      <img src="img/Proyecto_informatica.jpeg" alt="imagen del Proyecto" class="img-card">
+                    </div>
+                    <div class="col-lg-7">
+                      <div class="text-proyect-card">
+                        <h3>Titulo del primer proyecto</h3>
+                        <p>Descripción del primer proyecto</p>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            
+              
+            
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
           </div>
 
+        
         </div>
-      </article>
-    </section>
-    <!--  Mecanica  -->
-    <section class="container-md box pt-2 pb-2">
-      <div class="grup-date center justify-content-between">
-        <h2>6to B</h2>
-        <h2>2023</h2>
-      </div>
-      <article class="row"> 
+      </section>
+    </div>
+    <!--  Lista de  -->
+    <div class="container d-flex justify-content-center align-items-center">
+      <section class="container-md box pt-2 pb-2">
+        <div class="grup-date center justify-content-between">
+          <h2>3to A</h2>
+          <h2>2023</h2>
+        </div>
+        <div class="row"> 
+          <!-- carousel -->
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+              
+              <!-- Proyect card -->
 
-        <div class="col-md-4 d-flex justify-content-center align-items-center">
-          
-          <div class="box pt-2" style="width: 18rem;">
-            <img src="img/Proyecto_mecanica.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Título de la tarjeta</h5>
-              <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
-              <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+                <article class="container-lg box">
+                  <div class="row">
+                    <div class="col-lg-5 ">
+                      <img src="img/Proyecto_informatica.jpeg" alt="imagen del Proyecto" class="img-card">
+                    </div>
+                    <div class="col-lg-7">
+                      <div class="text-proyect-card">
+                        <h3>Titulo del primer proyecto</h3>
+                        <p>Descripción del primer proyecto</p>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            
+              <div class="carousel-item">
+              <!-- Proyect card -->
+
+                <article class="container-md box">
+                  <div class="row">
+                    <div class="col-lg-5">
+                      <img src="img/Proyecto_informatica.jpeg" alt="imagen del Proyecto" class="img-card">
+                    </div>
+                    <div class="col-lg-7">
+                      <div class="text-proyect-card">
+                        <h3>Titulo del segundo proyecto</h3>
+                        <p>Descripción del segundo proyecto</p>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
           </div>
 
+        
         </div>
-
-        <div class="col-md-4 d-flex justify-content-center align-items-center">
-          
-          <div class="box pt-2" style="width: 18rem;">
-            <img src="img/Proyecto_mecanica.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Título de la tarjeta</h5>
-              <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
-              <a href="#" class="btn btn-primary">Ir a algún lugar</a>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="col-md-4 d-flex justify-content-center align-items-center">
-          
-          <div class="box pt-2" style="width: 18rem;">
-            <img src="img/Proyecto_mecanica.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Título de la tarjeta</h5>
-              <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
-              <a href="#" class="btn btn-primary">Ir a algún lugar</a>
-            </div>
-          </div>
-
-        </div>
-      </article>
-    </section>
-    <!--  Informatica  -->
-    <section class="container-md box pt-2 pb-2">
-      <div class="grup-date center justify-content-between">
-        <h2>5to A</h2>
-        <h2>2023</h2>
-      </div>
-      <article class="row"> 
-
-        <div class="col-md-4 d-flex justify-content-center align-items-center">
-          
-          <div class="box pt-2" style="width: 18rem;">
-            <img src="img/Proyecto_informatica.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Título de la tarjeta</h5>
-              <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
-              <a href="#" class="btn btn-primary">Ir a algún lugar</a>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="col-md-4 d-flex justify-content-center align-items-center">
-          
-          <div class="box pt-2" style="width: 18rem;">
-            <img src="img/Proyecto_informatica.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Título de la tarjeta</h5>
-              <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
-              <a href="#" class="btn btn-primary">Ir a algún lugar</a>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="col-md-4 d-flex justify-content-center align-items-center">
-          
-          <div class="box pt-2" style="width: 18rem;">
-            <img src="img/Proyecto_informatica.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Título de la tarjeta</h5>
-              <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
-              <a href="#" class="btn btn-primary">Ir a algún lugar</a>
-            </div>
-          </div>
-
-        </div>
-      </article>
-    </section>
-    <!--  Informatica  -->
-    <section class="container-md box pt-2 pb-2">
-      <div class="grup-date center justify-content-between">
-        <h2>4to A</h2>
-        <h2>2023</h2>
-      </div>
-      <article class="row"> 
-
-        <div class="col-md-4 d-flex justify-content-center align-items-center">
-          
-          <div class="box pt-2" style="width: 18rem;">
-            <img src="img/Proyecto_informatica.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Título de la tarjeta</h5>
-              <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
-              <a href="#" class="btn btn-primary">Ir a algún lugar</a>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="col-md-4 d-flex justify-content-center align-items-center">
-          
-          <div class="box pt-2" style="width: 18rem;">
-            <img src="img/Proyecto_informatica.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Título de la tarjeta</h5>
-              <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
-              <a href="#" class="btn btn-primary">Ir a algún lugar</a>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="col-md-4 d-flex justify-content-center align-items-center">
-          
-          <div class="box pt-2" style="width: 18rem;">
-            <img src="img/Proyecto_informatica.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Título de la tarjeta</h5>
-              <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
-              <a href="#" class="btn btn-primary">Ir a algún lugar</a>
-            </div>
-          </div>
-
-        </div>
-      </article>
-    </section>
-    <!--  Informatica  -->
-    <section class="container-md box pt-2 pb-2">
-      <div class="grup-date center justify-content-between">
-        <h2>3to A</h2>
-        <h2>2023</h2>
-      </div>
-      <article class="row"> 
-
-        <div class="col-md-4 d-flex justify-content-center align-items-center">
-          
-          <div class="box pt-2" style="width: 18rem;">
-            <img src="img/Proyecto_informatica.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Título de la tarjeta</h5>
-              <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
-              <a href="#" class="btn btn-primary">Ir a algún lugar</a>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="col-md-4 d-flex justify-content-center align-items-center">
-          
-          <div class="box pt-2" style="width: 18rem;">
-            <img src="img/Proyecto_informatica.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Título de la tarjeta</h5>
-              <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
-              <a href="#" class="btn btn-primary">Ir a algún lugar</a>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="col-md-4 d-flex justify-content-center align-items-center">
-          
-          <div class="box pt-2" style="width: 18rem;">
-            <img src="img/Proyecto_informatica.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Título de la tarjeta</h5>
-              <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
-              <a href="#" class="btn btn-primary">Ir a algún lugar</a>
-            </div>
-          </div>
-
-        </div>
-      </article>
-    </section>
+      </section>
+    </div>
     
 
   </main>
